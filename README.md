@@ -61,11 +61,13 @@ help - display documented commands(methods)
 <h3>examples</h3>
 1. create an object: create className
 <hr>
+<code>
 (hbnb) create User
 b5fc79ad-0f9f-4864-ac5c-c74278b8e21d
 (hbnb) create Use
 ** class name doesn't exist **
 (hbnb)
+</code>
 
 2.show an object: show className id
 <hr>
