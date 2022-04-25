@@ -11,23 +11,23 @@ Author | https://github.com/takelemerga/AirBnB_clone
     <th>Description</th>
   </tr>
   <tr>
-    <td>models/base_model: BaseModel</td>
+    <td>models/base_model: <a href = "https://github.com/takelemerga/AirBnB_clone/blob/master/models/base_model.py"> BaseModel</a>  
     <td>defines all common attributes/methods for other classes</td>
   </tr>
   <tr>
-    <td>models/td>
+    <td><a href="https://github.com/takelemerga/AirBnB_clone/tree/master/models"> models</a></td>
     <td>contains project class modules</td>
   </tr>
   <tr>
-    <td>models/engine/file_storage</td>
+    <td>models/engine/<a href="https://github.com/takelemerga/AirBnB_clone/tree/master/models/engine">file_storage</a></td>
     <td>serializes instances to a JSON file and deserializes JSON file to instances</td>
   </tr>
   <tr>
-    <td>console</td>
+    <td><a href="https://github.com/takelemerga/AirBnB_clone/blob/master/console.py">console</a></td>
     <td>entry point of the command interpreter</td>
   </tr>
   <tr>
-    <td>tests/</td>
+    <td><a href="https://github.com/takelemerga/AirBnB_clone/tree/master/models/tests">tests/</a></td>
     <td>All files, classes, functions must be tested with unit tests</td>
   </tr>
 </table> 
