@@ -62,8 +62,8 @@ help - display documented commands(methods)
 1. create an object: create className
 <hr>
 <code>
-(hbnb) create User
-b5fc79ad-0f9f-4864-ac5c-c74278b8e21d
+(hbnb) create User<br>
+b5fc79ad-0f9f-4864-ac5c-c74278b8e21d<br>
 (hbnb) create Use
 ** class name doesn't exist **
 (hbnb)
