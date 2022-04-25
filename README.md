@@ -1,4 +1,4 @@
-<center> <h1>HBNB - The Console</h1> </center>
+<center> <h2>HBNB - The Console</h1> </center>
 
 This repository contains the initial stage of a student project to build a clone of the AirBnB website. This stage implements a backend interface, or console, to manage program data. Console commands allow the user to create, update, and destroy objects, as well as manage file storage. Using a system of JSON serialization/deserialization, storage is persistent between sessions.
 
@@ -34,18 +34,17 @@ Author | https://github.com/takelemerga/AirBnB_clone
 <h1><center>Usage</center></h1>
 <p>
 
-    First clone this repository. once the repository is cloned locate the "console.py" file and run it as follows:<br>
+    First clone this repository. once the repository is cloned locate the "console.py" file and run it as follows:
 
-<code>/AirBnB_clone$ ./console.py</code><br>
+<code>/AirBnB_clone$ ./console.py</code>
 
-    When this command is run the following prompt should appear:<br>
+    When this command is run the following prompt should appear:
 
-<code>(hbnb)</code><br>
+<code>(hbnb)</code>
 
     This prompt designates you are in the "HBnB" console.
  </p>
 <h3><center>commands<center></h3>
-<code>
 create - Creates an instance based on given class
 
 destroy - Destroys an object based on class and UUID
@@ -59,21 +58,17 @@ update - Updates existing attributes an object based on class name and UUID
 quit - Exits the program (EOF will as well)
 
 help - display documented commands(methods)
-</code>
 <h3>examples</h3>
-1. create an object: create <className>
+1. create an object: create className
 <hr>
-<code>
 (hbnb) create User
 b5fc79ad-0f9f-4864-ac5c-c74278b8e21d
 (hbnb) create Use
 ** class name doesn't exist **
 (hbnb)
-</code>
-2.show an object: show <className> <id>
+
+2.show an object: show className id
 <hr>
-<code>
 (hbnb) show User b5fc79ad-0f9f-4864-ac5c-c74278b8e21d
 [User] (b5fc79ad-0f9f-4864-ac5c-c74278b8e21d) {'id': 'b5fc79ad-0f9f-4864-ac5c-c74278b8e21d', 'created_at': datetime.datetime(2022, 4, 25, 11, 6, 20, 390648), 'updated_at': datetime.datetime(2022, 4, 25, 11, 6, 20, 390701)}
 (hbnb)
-</code>
