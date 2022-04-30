@@ -65,7 +65,7 @@ class HBNBCommand(cmd.Cmd):
          Usage: show <class name> <id>
         """
         list_arg = line.split()
-        if list_arg[0] == "":
+        if len(list_arg) == 0:
             print("** class name missing **")
         elif len(list_arg) == 1:
             print("** instance id missing **")
@@ -85,10 +85,10 @@ class HBNBCommand(cmd.Cmd):
           save the change into the JSON file
         """
         list_arg = line.split()
-        if list_arg[0] == "":
-            print("** class name missing **")
+        if len(list_arg) == 0:
+            print("** class name missing **")  # example: $ destroy
         elif len(list_arg) == 1:
-            print("** instance id missing **")
+            print("** instance id missing **")  # example: $ destyor User
         elif not list_arg[0] in HBNBCommand.name_classes:
             print("** class doesn't exist **")
         else:
